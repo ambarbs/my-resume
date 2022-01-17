@@ -7,6 +7,7 @@ export const HeaderWrapper = styled.section`
   width: 100%;
   height: 10rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 `
 
 export const NameWrapper = styled.div`
