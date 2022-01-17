@@ -11,6 +11,7 @@ function App() {
             {sections.map(section => <Section
                 key={section.header}
                 sectionHeader={section.header}
+                SectionHeaderIcon={section.headerIcon}
                 subSections={section.subSections}
             />)}
         </AppWrapper>

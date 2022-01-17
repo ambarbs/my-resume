@@ -18,12 +18,7 @@ export const SubSectionWrapper = styled.div`
   padding: 1rem 1rem 0.5rem 0;
 
 `
-// export const SubSectionWrapper = styled.section`
-//   display: flex;
-//   justify-content: flex-start;
-//   align-items: center;
-//   padding: 1rem 1rem 0.5rem 0;
-//   & ${SubSectionTitle} {
-//     padding-right: 2rem;
-//   }
-// `
+
+export const SubSectionWrapperWithIcon = styled(SubSectionWrapper)`
+  grid-template-columns:  0.3fr 0.7fr 4fr;
+`
