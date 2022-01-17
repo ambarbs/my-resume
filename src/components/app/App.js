@@ -1,4 +1,4 @@
-import '../../App.css';
+import React from 'react';
 import {AppWrapper} from "./App.styles";
 import Header from "../header/Header";
 

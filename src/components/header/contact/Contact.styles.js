@@ -12,7 +12,6 @@ export const ContactWrapper = styled.div`
   justify-content: center;
   align-items: center;
   font-size: larger;
-  color: #565252;
 `
 
 export const ContactText = styled.label`

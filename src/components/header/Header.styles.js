@@ -5,11 +5,11 @@ export const HeaderWrapper = styled.section`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 8rem;
+  height: 10rem;
   margin-top: 1rem;
 `
 
 export const NameWrapper = styled.div`
   font-size: 7em;
-  font-weight: bold;
+  font-family: 'Roboto';
 `

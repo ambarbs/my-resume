@@ -1,3 +1,4 @@
+import React from 'react';
 import {HeaderWrapper, NameWrapper} from "./Header.styles";
 import {ContactSectionWrapper} from "./contact/Contact.styles";
 import {AiOutlineMail} from "react-icons/ai";
