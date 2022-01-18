@@ -30,6 +30,7 @@ export const ContactText = styled.label`
 export const ContactUrl = styled.a`
   padding-left: 1rem;
   padding-bottom: 0.4rem;
+  color: ${({color}) => color};
   @media only screen and (max-width: 360px) {
     display: none;
     padding-left: 0.5rem;

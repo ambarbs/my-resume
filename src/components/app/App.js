@@ -20,7 +20,6 @@ function App() {
                 <GlobalStyles/>
                 <AppWrapper>
                     <ToggleButton handleOnCheck={toggleTheme}/>
-                    {/*<button onClick={toggleTheme}>Switch Theme</button>*/}
                     <Header contacts={contacts}/>
                     {sections.map(section => <Section
                         key={section.header}
