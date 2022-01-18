@@ -11,6 +11,7 @@ const Section = ({sectionHeader, SectionHeaderIcon, subSections = []}) => <Secti
         subSectionTitle={subSection.subSectionTitle}
         subSectionTexts={subSection.subSectionTexts}
         yearsWorked={subSection.yearsWorked}
+        workTitle={subSection.workTitle}
     />: <SubSection
         subSectionTitle={subSection.subSectionTitle}
         subSectionText={subSection.subSectionText}

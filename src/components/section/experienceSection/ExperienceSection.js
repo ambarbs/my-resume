@@ -11,7 +11,7 @@ const BulletList = styled.ul`
   list-style-type: disc;
 `
 
-const ExperienceSection = ({subSectionTitle, subSectionIcon, yearsWorked, subSectionTexts}) => {
+const ExperienceSection = ({subSectionTitle, subSectionIcon, yearsWorked, workTitle, subSectionTexts}) => {
     return <ExperienceSectionWrapper>
         <ImageContainer>
             <ImageWrapper src={subSectionIcon} alt='work logo'/>
@@ -20,8 +20,11 @@ const ExperienceSection = ({subSectionTitle, subSectionIcon, yearsWorked, subSec
             <strong>{subSectionTitle}</strong>
             <label>{yearsWorked}</label>
         </LeftInnerWrapper>
-        <BulletList>{subSectionTexts.map(subSectionText =>
-            <SubSectionTextLi>{subSectionText}</SubSectionTextLi>)}</BulletList>
+        <div>
+            <h3>{workTitle}</h3>
+            <BulletList>{subSectionTexts.map(subSectionText =>
+                <SubSectionTextLi>{subSectionText}</SubSectionTextLi>)}</BulletList>
+        </div>
     </ExperienceSectionWrapper>
 }
 
@@ -32,4 +35,5 @@ ExperienceSection.propTypes = {
     subSectionText: PropTypes.string,
     subSectionTitle: PropTypes.string,
     yearsWorked: PropTypes.string,
+    workTitle: PropTypes.string,
 }

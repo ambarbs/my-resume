@@ -20,7 +20,7 @@ export const SubSectionWrapper = styled.div`
   display: grid;
   column-gap: 0.25rem;
   grid-template-columns: 2fr 9fr;
-  padding: 1rem 1rem 0.5rem 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
 
 `
 
