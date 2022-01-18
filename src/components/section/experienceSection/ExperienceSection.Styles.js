@@ -27,4 +27,23 @@ export const ImageContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: 360px) {
+    width: 2.5rem;
+  }
+`
+
+export const Strong = styled.strong`
+  @media only screen and (max-width: 360px) {
+    font-size: medium;
+  }
+`
+export const Label = styled.label`
+  @media only screen and (max-width: 360px) {
+    font-size: 0.9rem;
+  }
+`
+export const H3 = styled.h3`
+  @media only screen and (max-width: 360px) {
+    font-size: 0.9rem;
+  }
 `

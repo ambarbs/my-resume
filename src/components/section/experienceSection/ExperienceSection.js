@@ -4,7 +4,13 @@ import {
     ImageWrapper,
     SubSectionText, SubSectionTextLi,
 } from "../subSection/SubSection.Styles";
-import {ExperienceSectionWrapper, ImageContainer, LeftInnerWrapper, LeftWrapper} from "./ExperienceSection.Styles";
+import {
+    ExperienceSectionWrapper, H3,
+    ImageContainer, Label,
+    LeftInnerWrapper,
+    LeftWrapper,
+    Strong
+} from "./ExperienceSection.Styles";
 import styled from "styled-components";
 
 const BulletList = styled.ul`
@@ -17,11 +23,11 @@ const ExperienceSection = ({subSectionTitle, subSectionIcon, yearsWorked, workTi
             <ImageWrapper src={subSectionIcon} alt='work logo'/>
         </ImageContainer>
         <LeftInnerWrapper>
-            <strong>{subSectionTitle}</strong>
-            <label>{yearsWorked}</label>
+            <Strong>{subSectionTitle}</Strong>
+            <Label>{yearsWorked}</Label>
         </LeftInnerWrapper>
         <div>
-            <h3>{workTitle}</h3>
+            <H3>{workTitle}</H3>
             <BulletList>{subSectionTexts.map(subSectionText =>
                 <SubSectionTextLi>{subSectionText}</SubSectionTextLi>)}</BulletList>
         </div>

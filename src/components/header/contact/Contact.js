@@ -4,7 +4,7 @@ import {ContactText, ContactUrl, ContactWrapper} from "./Contact.styles";
 
 const Contact = ({Icon, text, isUrl = false}) =>
     <ContactWrapper>
-        <Icon size={25} color='#565252'/>
+        <Icon size='1.2em' color='#565252'/>
         {!isUrl && <ContactText>{text}</ContactText>}
         {isUrl && <ContactUrl href={text}>{text}</ContactUrl>}
     </ContactWrapper>

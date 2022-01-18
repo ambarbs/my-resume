@@ -3,7 +3,11 @@ import styled from 'styled-components';
 export const SectionHeaderText = styled.label`
   text-transform: uppercase;
   font-size: 2rem;
-  letter-spacing: 4px;
+  letter-spacing: 0.5rem;
+  width: 80%;
+  @media only screen and (max-width: 360px) {
+    font-size: 1.25rem;
+  }
 `
 
 export const SectionHeaderWrapper = styled.div`

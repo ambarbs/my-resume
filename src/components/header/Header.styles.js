@@ -5,9 +5,13 @@ export const HeaderWrapper = styled.section`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 10rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  height: 10rem;
+
+  @media only screen and (max-width: 360px) {
+    height: 6rem;
+  }
 `
 
 export const NameWrapper = styled.div`
@@ -18,5 +22,8 @@ export const NameWrapper = styled.div`
   }
   @media only screen and (max-width: 560px) {
     font-size: 1.75em;
+  }
+  @media only screen and (max-width: 360px) {
+    font-size: 2.5em;
   }
 `
