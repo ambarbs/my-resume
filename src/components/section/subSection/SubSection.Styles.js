@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SubSectionTitle = styled.label`
   font-size: larger;
-  font-weight: 500;
+  font-weight: bold;
   @media only screen and (max-width: 360px) {
     font-size: medium;
     word-break: break-word;
