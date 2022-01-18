@@ -12,6 +12,9 @@ export const ContactWrapper = styled.div`
   justify-content: center;
   align-items: center;
   font-size: larger;
+  @media only screen and (max-width: 560px) {
+    font-size: small;
+  }
 `
 
 export const ContactText = styled.label`
