@@ -24,6 +24,6 @@ export const NameWrapper = styled.div`
     font-size: 1.75em;
   }
   @media only screen and (max-width: 360px) {
-    font-size: 2.5em;
+    font-size: 2.8em;
   }
 `

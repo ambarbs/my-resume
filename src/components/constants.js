@@ -140,7 +140,7 @@ export const sections = [
                 workTitle: 'Senior Software Engineer',
                 yearsWorked: 'Jul 2008 - Sep 2010',
                 subSectionTexts: [
-                'Extensively involved with SAP’s project, Heineken, Netherlands and had to travel a couple of times to the client’s side in Amsterdam.',
+                'Extensively involved with SAP’s project, Heineken, Netherlands and had to travel a couple of times to the client’s site in Amsterdam.',
                 'Primary responsibilities were - coding, code review, requirement gathering']
             },
         ]

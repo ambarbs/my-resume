@@ -7,8 +7,7 @@ import {
 import {
     ExperienceSectionWrapper, H3,
     ImageContainer, Label,
-    LeftInnerWrapper,
-    LeftWrapper,
+    LeftInnerWrapper, LeftOuterWrapper,
     Strong
 } from "./ExperienceSection.Styles";
 import styled from "styled-components";
@@ -19,13 +18,15 @@ const BulletList = styled.ul`
 
 const ExperienceSection = ({subSectionTitle, subSectionIcon, yearsWorked, workTitle, subSectionTexts}) => {
     return <ExperienceSectionWrapper>
-        <ImageContainer>
-            <ImageWrapper src={subSectionIcon} alt='work logo'/>
-        </ImageContainer>
-        <LeftInnerWrapper>
-            <Strong>{subSectionTitle}</Strong>
-            <Label>{yearsWorked}</Label>
-        </LeftInnerWrapper>
+        <LeftOuterWrapper>
+            <ImageContainer>
+                <ImageWrapper src={subSectionIcon} alt='work logo'/>
+            </ImageContainer>
+            <LeftInnerWrapper>
+                <Strong>{subSectionTitle}</Strong>
+                <Label>{yearsWorked}</Label>
+            </LeftInnerWrapper>
+        </LeftOuterWrapper>
         <div>
             <H3>{workTitle}</H3>
             <BulletList>{subSectionTexts.map(subSectionText =>

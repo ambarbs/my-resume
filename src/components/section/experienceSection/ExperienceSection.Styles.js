@@ -1,10 +1,21 @@
 import styled from "styled-components";
 import {SubSectionWrapper} from "../subSection/SubSection.Styles";
 
-export const LeftWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+export const Strong = styled.strong`
+  @media only screen and (max-width: 360px) {
+    font-size: small;
+  }
+`
+export const Label = styled.label`
+  @media only screen and (max-width: 360px) {
+    font-size: 0.8rem;
+  }
+`
+export const H3 = styled.h3`
+  @media only screen and (max-width: 360px) {
+    font-size: 0.9rem;
+    padding-left: 1rem;
+  }
 `
 
 export const LeftInnerWrapper = styled.div`
@@ -12,13 +23,37 @@ export const LeftInnerWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  text-align: center;
-  //padding-left: 0.5rem;
+  text-align: left;
+  @media only screen and (max-width: 360px) {
+    & ${Strong} {
+      padding-bottom: 1rem;
+    }
+  }
+`
+
+
+export const LeftOuterWrapper = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  & ${LeftInnerWrapper} {
+    padding-left: 1rem;
+  }
+
+  @media only screen and (max-width: 360px) {
+    flex-direction: column;
+    align-items: flex-start;
+    word-break: break-word;
+    & ${LeftInnerWrapper} {
+      padding-left: unset;
+      padding-top: 1rem;
+    }
+  }
 `
 
 export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
   column-gap: 0.25rem;
-  grid-template-columns:  0.5fr 1.5fr 9fr;
 `
 
 export const ImageContainer = styled.div`
@@ -29,21 +64,7 @@ export const ImageContainer = styled.div`
   align-items: center;
   @media only screen and (max-width: 360px) {
     width: 2.5rem;
-  }
-`
-
-export const Strong = styled.strong`
-  @media only screen and (max-width: 360px) {
-    font-size: medium;
-  }
-`
-export const Label = styled.label`
-  @media only screen and (max-width: 360px) {
-    font-size: 0.9rem;
-  }
-`
-export const H3 = styled.h3`
-  @media only screen and (max-width: 360px) {
-    font-size: 0.9rem;
+    height: unset;
+    padding-top: 1rem;
   }
 `
