@@ -1,17 +1,8 @@
 import styled from 'styled-components';
 
-export const SectionWrapper = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-`
-
 export const SectionHeaderText = styled.label`
   text-transform: uppercase;
-  font-size: xx-large;
+  font-size: 2rem;
   letter-spacing: 4px;
 `
 
@@ -26,4 +17,15 @@ export const SectionHeaderWrapper = styled.div`
   }
 `
 
+export const SectionWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  & ${SectionHeaderWrapper}{ 
+    margin-bottom: 1.5rem;
+  }
+`
 

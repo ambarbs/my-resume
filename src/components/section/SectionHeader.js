@@ -3,7 +3,7 @@ import React from "react";
 import {SectionHeaderText, SectionHeaderWrapper} from "./Section.Styles";
 
 const SectionHeader = ({sectionHeader, SectionHeaderIcon}) => <SectionHeaderWrapper>
-    <SectionHeaderIcon size={50}/>
+    <SectionHeaderIcon size={60}/>
     <SectionHeaderText>{sectionHeader}</SectionHeaderText>
 </SectionHeaderWrapper>
 

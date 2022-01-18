@@ -1,14 +1,16 @@
 import PropTypes from 'prop-types'
 import React from "react";
-import {SubSectionText, SubSectionTitle, SubSectionWrapper, SubSectionWrapperWithIcon} from "./SubSection.Styles";
+import {
+    SubSectionText,
+    SubSectionTitle,
+    SubSectionWrapper,
+} from "./SubSection.Styles";
 
-const SubSection = ({subSectionTitle, SubSectionIcon,subSectionText}) => {
-    const Wrapper = SubSectionIcon ? SubSectionWrapperWithIcon : SubSectionWrapper;
-    return <Wrapper>
-        {SubSectionIcon && <SubSectionIcon size={35}/>}
+const SubSection = ({subSectionTitle,subSectionText}) => {
+    return <SubSectionWrapper>
         <SubSectionTitle>{subSectionTitle}</SubSectionTitle>
         <SubSectionText>{subSectionText}</SubSectionText>
-    </Wrapper>
+    </SubSectionWrapper>
 }
 
 export default SubSection;
