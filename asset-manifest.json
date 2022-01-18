@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/my-resume/static/css/main.69eda509.chunk.css",
-    "main.js": "/my-resume/static/js/main.053a3130.chunk.js",
-    "main.js.map": "/my-resume/static/js/main.053a3130.chunk.js.map",
-    "runtime-main.js": "/my-resume/static/js/runtime-main.9dbc6ba1.js",
-    "runtime-main.js.map": "/my-resume/static/js/runtime-main.9dbc6ba1.js.map",
-    "static/js/2.a7eba15e.chunk.js": "/my-resume/static/js/2.a7eba15e.chunk.js",
-    "static/js/2.a7eba15e.chunk.js.map": "/my-resume/static/js/2.a7eba15e.chunk.js.map",
-    "static/js/3.df422d58.chunk.js": "/my-resume/static/js/3.df422d58.chunk.js",
-    "static/js/3.df422d58.chunk.js.map": "/my-resume/static/js/3.df422d58.chunk.js.map",
+    "main.js": "/my-resume/static/js/main.032e7838.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.032e7838.chunk.js.map",
+    "runtime-main.js": "/my-resume/static/js/runtime-main.a099536c.js",
+    "runtime-main.js.map": "/my-resume/static/js/runtime-main.a099536c.js.map",
+    "static/js/2.d239a72a.chunk.js": "/my-resume/static/js/2.d239a72a.chunk.js",
+    "static/js/2.d239a72a.chunk.js.map": "/my-resume/static/js/2.d239a72a.chunk.js.map",
+    "static/js/3.56b8992e.chunk.js": "/my-resume/static/js/3.56b8992e.chunk.js",
+    "static/js/3.56b8992e.chunk.js.map": "/my-resume/static/js/3.56b8992e.chunk.js.map",
     "index.html": "/my-resume/index.html",
-    "precache-manifest.6335f392db9951b8acb5ef9a3a6c3fbc.js": "/my-resume/precache-manifest.6335f392db9951b8acb5ef9a3a6c3fbc.js",
+    "precache-manifest.bf24b4c580b3eaa88347e1a155b7d719.js": "/my-resume/precache-manifest.bf24b4c580b3eaa88347e1a155b7d719.js",
     "service-worker.js": "/my-resume/service-worker.js",
     "static/css/main.69eda509.chunk.css.map": "/my-resume/static/css/main.69eda509.chunk.css.map",
-    "static/js/2.a7eba15e.chunk.js.LICENSE.txt": "/my-resume/static/js/2.a7eba15e.chunk.js.LICENSE.txt",
+    "static/js/2.d239a72a.chunk.js.LICENSE.txt": "/my-resume/static/js/2.d239a72a.chunk.js.LICENSE.txt",
     "static/media/Indience.png": "/my-resume/static/media/Indience.c114aacc.png",
     "static/media/coreLogic.jpg": "/my-resume/static/media/coreLogic.f52dbcdf.jpg",
     "static/media/iag.png": "/my-resume/static/media/iag.ef88eabe.png",
@@ -23,9 +23,9 @@
     "static/media/tab.jpg": "/my-resume/static/media/tab.e54bebe9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9dbc6ba1.js",
-    "static/js/2.a7eba15e.chunk.js",
+    "static/js/runtime-main.a099536c.js",
+    "static/js/2.d239a72a.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.053a3130.chunk.js"
+    "static/js/main.032e7838.chunk.js"
   ]
 }
