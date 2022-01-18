@@ -11,7 +11,6 @@ import ToggleButton from "../toggleButton/ToggleButton";
 function App() {
     const [theme, setTheme] = useState('light');
     const toggleTheme = (isChecked = false) => {
-        debugger;
         isChecked === true ? setTheme('dark') : setTheme('light')
     }
 

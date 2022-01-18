@@ -33,16 +33,16 @@ export const StyledLabel = styled.label`
 `
 
 export const Circle = styled.div`
-  width: 1.85rem;
-  height: 1.85rem;
+  width: 2rem;
+  height: 2rem;
   background-color: white;
   position: relative;
   left: -4rem;
   border-radius: 50%;
   transition: transform 0.2s linear;
   @media only screen and (max-width: 360px) {
-    //width: 1.5rem;
-    //height: 1.5rem;
+    width: 1.85rem;
+    height: 1.85rem;
     left: -3.5rem;
   }
 `
@@ -70,7 +70,7 @@ export const StyledCheckbox = styled.input`
   position: relative;
 
   &:checked + ${StyledLabel} + ${Circle} {
-    transform: translateX(2.9rem);
+    transform: translateX(2.7rem);
     @media only screen and (max-width: 360px) {
       transform: translateX(2.1rem);
     }
