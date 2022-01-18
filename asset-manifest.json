@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/my-resume/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/my-resume/static/js/main.2f2a5764.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.2f2a5764.chunk.js.map",
+    "runtime-main.js": "/my-resume/static/js/runtime-main.9dbc6ba1.js",
+    "runtime-main.js.map": "/my-resume/static/js/runtime-main.9dbc6ba1.js.map",
+    "static/js/2.a7eba15e.chunk.js": "/my-resume/static/js/2.a7eba15e.chunk.js",
+    "static/js/2.a7eba15e.chunk.js.map": "/my-resume/static/js/2.a7eba15e.chunk.js.map",
+    "static/js/3.df422d58.chunk.js": "/my-resume/static/js/3.df422d58.chunk.js",
+    "static/js/3.df422d58.chunk.js.map": "/my-resume/static/js/3.df422d58.chunk.js.map",
+    "index.html": "/my-resume/index.html",
+    "precache-manifest.dc0bc367e56bf955614f76acd64818ab.js": "/my-resume/precache-manifest.dc0bc367e56bf955614f76acd64818ab.js",
+    "service-worker.js": "/my-resume/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/my-resume/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.a7eba15e.chunk.js.LICENSE.txt": "/my-resume/static/js/2.a7eba15e.chunk.js.LICENSE.txt",
+    "static/media/Indience.png": "/my-resume/static/media/Indience.c114aacc.png",
+    "static/media/coreLogic.jpg": "/my-resume/static/media/coreLogic.f52dbcdf.jpg",
+    "static/media/iag.png": "/my-resume/static/media/iag.ef88eabe.png",
+    "static/media/iress.jpg": "/my-resume/static/media/iress.0e92c8f0.jpg",
+    "static/media/luxury-escapes-logo.jpg": "/my-resume/static/media/luxury-escapes-logo.9ea0d815.jpg",
+    "static/media/optusSport.png": "/my-resume/static/media/optusSport.ea48ff32.png",
+    "static/media/tab.jpg": "/my-resume/static/media/tab.e54bebe9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9dbc6ba1.js",
+    "static/js/2.a7eba15e.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.2f2a5764.chunk.js"
+  ]
+}
