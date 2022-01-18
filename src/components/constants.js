@@ -34,7 +34,7 @@ export const sections = [
                 subSectionText: 'Gateway, Lambda, S3, AppSync, Serverless'
             },
             {
-                subSectionTitle: 'Testing methodologies',
+                subSectionTitle: 'Unit/Automation testing',
                 subSectionText: 'Jest, Enzyme, Selenium, Jasmine'
             }
         ]
