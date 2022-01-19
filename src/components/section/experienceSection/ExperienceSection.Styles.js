@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import {SubSectionWrapper} from "../subSection/SubSection.Styles";
+import styled from 'styled-components';
+import { SubSectionWrapper } from '../subSection/SubSection.Styles';
 
 export const Strong = styled.strong`
   @media only screen and (max-width: 360px) {
@@ -8,7 +8,7 @@ export const Strong = styled.strong`
   @media print {
     font-size: x-small;
   }
-`
+`;
 export const Label = styled.label`
   @media only screen and (max-width: 360px) {
     font-size: 0.8rem;
@@ -16,7 +16,7 @@ export const Label = styled.label`
   @media print {
     font-size: x-small;
   }
-`
+`;
 export const H3 = styled.h3`
   @media only screen and (max-width: 360px) {
     font-size: 0.9rem;
@@ -25,7 +25,7 @@ export const H3 = styled.h3`
   @media print {
     font-size: x-small;
   }
-`
+`;
 
 export const LeftInnerWrapper = styled.div`
   display: flex;
@@ -43,8 +43,7 @@ export const LeftInnerWrapper = styled.div`
       padding-bottom: 0.5rem;
     }
   }
-`
-
+`;
 
 export const LeftOuterWrapper = styled.div`
   display: flex;
@@ -64,14 +63,14 @@ export const LeftOuterWrapper = styled.div`
       padding-top: 1rem;
     }
   }
-`
+`;
 
 export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
   column-gap: 0.25rem;
   @media print {
     margin-bottom: 0.5rem;
   }
-`
+`;
 
 export const ImageContainer = styled.div`
   height: 100%;
@@ -84,4 +83,4 @@ export const ImageContainer = styled.div`
     height: unset;
     padding-top: 1rem;
   }
-`
+`;

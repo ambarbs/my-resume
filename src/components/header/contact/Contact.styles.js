@@ -1,12 +1,12 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const ContactSectionWrapper =styled.section`
+export const ContactSectionWrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   min-height: 100%;
-`
+`;
 export const ContactWrapper = styled.div`
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@ export const ContactWrapper = styled.div`
   @media print {
     font-size: x-small;
   }
-`
+`;
 
 export const ContactText = styled.label`
   padding-left: 1rem;
@@ -28,14 +28,14 @@ export const ContactText = styled.label`
     display: none;
     padding-left: 0.5rem;
   }
-`
+`;
 
 export const ContactUrl = styled.a`
   padding-left: 1rem;
   padding-bottom: 0.4rem;
-  color: ${({color}) => color};
+  color: ${({ color }) => color};
   @media only screen and (max-width: 360px) {
     display: none;
     padding-left: 0.5rem;
   }
-`
+`;

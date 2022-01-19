@@ -11,7 +11,7 @@ export const SectionHeaderText = styled.label`
   @media print {
     font-size: 1rem;
   }
-`
+`;
 
 export const SectionHeaderWrapper = styled.div`
   display: flex;
@@ -22,7 +22,7 @@ export const SectionHeaderWrapper = styled.div`
   & ${SectionHeaderText} {
     padding-left: 1rem;
   }
-`
+`;
 
 export const SectionWrapper = styled.section`
   display: flex;
@@ -31,14 +31,13 @@ export const SectionWrapper = styled.section`
   align-items: flex-start;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  & ${SectionHeaderWrapper}{ 
+  & ${SectionHeaderWrapper} {
     margin-bottom: 0.5rem;
   }
   @media print {
-    & ${SectionHeaderWrapper}{
+    & ${SectionHeaderWrapper} {
       margin-top: 1rem;
       margin-bottom: 0.2rem;
     }
   }
-`
-
+`;

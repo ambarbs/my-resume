@@ -1,4 +1,4 @@
-import styled, {keyframes} from "styled-components";
+import styled, { keyframes } from 'styled-components';
 
 export const ToggleButtonWrapper = styled.div`
   position: fixed;
@@ -16,7 +16,7 @@ export const ToggleButtonWrapper = styled.div`
   @media print {
     display: none;
   }
-`
+`;
 
 export const StyledLabel = styled.label`
   width: 3rem;
@@ -34,7 +34,7 @@ export const StyledLabel = styled.label`
     width: 2.5rem;
     height: 0.75rem;
   }
-`
+`;
 
 export const Circle = styled.div`
   width: 2rem;
@@ -49,7 +49,7 @@ export const Circle = styled.div`
     height: 1.85rem;
     left: -3.5rem;
   }
-`
+`;
 
 const changeColorOfLabel = keyframes`
   from {
@@ -58,7 +58,7 @@ const changeColorOfLabel = keyframes`
   to {
     background: #111;
   }
-`
+`;
 
 const changeColorOfLabelReverse = keyframes`
   from {
@@ -67,7 +67,7 @@ const changeColorOfLabelReverse = keyframes`
   to {
     background: #967d7d;
   }
-`
+`;
 
 export const StyledCheckbox = styled.input`
   opacity: 0;
@@ -86,4 +86,4 @@ export const StyledCheckbox = styled.input`
   &:not(:checked) + ${StyledLabel} {
     animation: ${changeColorOfLabelReverse} linear 0.2s forwards;
   }
-`
+`;

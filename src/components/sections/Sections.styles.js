@@ -5,4 +5,4 @@ export const HeaderSection = styled.section`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-`
+`;

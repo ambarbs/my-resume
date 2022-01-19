@@ -16,7 +16,7 @@ export const HeaderWrapper = styled.section`
     height: 3rem;
     margin-bottom: 0.25rem;
   }
-`
+`;
 
 export const NameWrapper = styled.div`
   font-size: 7em;
@@ -34,4 +34,4 @@ export const NameWrapper = styled.div`
   @media print {
     font-size: 2.5em;
   }
-`
+`;

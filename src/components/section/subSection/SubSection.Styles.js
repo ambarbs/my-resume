@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const SubSectionTitle = styled.label`
   font-size: larger;
@@ -10,7 +10,7 @@ export const SubSectionTitle = styled.label`
   @media print {
     font-size: x-small;
   }
-`
+`;
 
 export const SubSectionText = styled.label`
   font-size: larger;
@@ -21,7 +21,7 @@ export const SubSectionText = styled.label`
   @media print {
     font-size: x-small;
   }
-`
+`;
 
 export const SubSectionTextLi = styled.li`
   font-size: larger;
@@ -32,7 +32,7 @@ export const SubSectionTextLi = styled.li`
   @media print {
     font-size: x-small;
   }
-`
+`;
 
 export const SubSectionWrapper = styled.div`
   width: 100%;
@@ -46,7 +46,7 @@ export const SubSectionWrapper = styled.div`
   @media print {
     padding: 0.2rem 0.5rem 0.2rem 0;
   }
-`
+`;
 
 export const ImageWrapper = styled.img`
   width: 3rem;

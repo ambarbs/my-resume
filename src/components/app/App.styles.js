@@ -15,8 +15,10 @@ export const AppOuterWrapper = styled.div`
 
 export const AppInnerWrapper = styled.div`
   width: 80%;
-`
+`;
 
-export const AppWrapper = ({children}) => <AppOuterWrapper><AppInnerWrapper>
-    {children}
-</AppInnerWrapper></AppOuterWrapper>
+export const AppWrapper = ({ children }) => (
+  <AppOuterWrapper>
+    <AppInnerWrapper>{children}</AppInnerWrapper>
+  </AppOuterWrapper>
+);
