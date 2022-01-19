@@ -10,9 +10,10 @@ const Header = ({ contacts = [] }) => (
     <ContactSectionWrapper>
       {contacts.map((contact) => (
         <Contact
-          key={contact.text}
+          key={`${contact.text}-${contact.link}`}
           Icon={contact.icon}
           text={contact.text}
+          link={contact.link}
           isUrl={contact.isUrl}
           hideOnWebPage={contact.hideOnWebPage}
         />

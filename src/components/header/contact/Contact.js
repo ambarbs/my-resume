@@ -3,7 +3,7 @@ import { useTheme } from 'styled-components';
 import PropTypes from 'prop-types';
 import { ContactText, ContactUrl, ContactWrapper } from './Contact.styles';
 
-const Contact = ({ Icon, text, isUrl = false, hideOnWebPage = false }) => {
+const Contact = ({ Icon, text, link, isUrl = false, hideOnWebPage = false }) => {
   const theme = useTheme();
   return (
     <ContactWrapper visibility={hideOnWebPage ? 'hidden' : 'visible'}>
@@ -12,7 +12,7 @@ const Contact = ({ Icon, text, isUrl = false, hideOnWebPage = false }) => {
       </a>
       {!isUrl && <ContactText>{text}</ContactText>}
       {isUrl && (
-        <ContactUrl href={text} color={theme.linkColor} target="_blank">
+        <ContactUrl href={link} color={theme.linkColor} target="_blank">
           {text}
         </ContactUrl>
       )}
@@ -24,6 +24,7 @@ export default Contact;
 Contact.propTypes = {
   Icon: PropTypes.func.isRequired,
   text: PropTypes.string.isRequired,
+  link: PropTypes.string,
   isUrl: PropTypes.bool,
   hideOnWebPage: PropTypes.bool,
 };
