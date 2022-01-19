@@ -9,7 +9,13 @@ const Header = ({ contacts = [] }) => (
     <NameWrapper>Ambar Bose</NameWrapper>
     <ContactSectionWrapper>
       {contacts.map((contact) => (
-        <Contact key={contact.text} Icon={contact.icon} text={contact.text} isUrl={contact.isUrl} />
+        <Contact
+          key={contact.text}
+          Icon={contact.icon}
+          text={contact.text}
+          isUrl={contact.isUrl}
+          hideOnWebPage={contact.hideOnWebPage}
+        />
       ))}
     </ContactSectionWrapper>
   </HeaderWrapper>

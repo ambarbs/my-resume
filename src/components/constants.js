@@ -206,5 +206,6 @@ export const contacts = [
     icon: CgScreen,
     text: 'https://ambarbs.github.io/my-resume/',
     isUrl: true,
+    hideOnWebPage: true,
   },
 ];
