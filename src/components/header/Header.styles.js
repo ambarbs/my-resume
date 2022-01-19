@@ -19,19 +19,29 @@ export const HeaderWrapper = styled.section`
 `;
 
 export const NameWrapper = styled.div`
-  font-size: 7em;
+  font-size: 8em;
+  letter-spacing: 0.15em;
+  line-height: 0.2em;
   font-family: 'Roboto';
   @media only screen and (max-width: 1024px) {
     font-size: 5em;
+    letter-spacing: unset;
+    line-height: unset;
   }
   @media only screen and (max-width: 560px) {
     font-size: 1.75em;
+    letter-spacing: unset;
+    line-height: unset;
   }
   @media only screen and (max-width: 360px) {
     font-size: 2.8em;
+    letter-spacing: unset;
+    line-height: unset;
   }
 
   @media print {
     font-size: 2.5em;
+    letter-spacing: unset;
+    line-height: unset;
   }
 `;

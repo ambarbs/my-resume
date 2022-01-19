@@ -5,12 +5,13 @@ export const ToggleButtonWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 1rem;
+  right: 0.5rem;
   top: 1rem;
 
   @media only screen and (max-width: 360px) {
     top: 0.75rem;
-    right: 3rem;
+    right: 4rem;
+    zoom: 0.75;
   }
 
   @media print {
@@ -31,7 +32,7 @@ export const StyledLabel = styled.label`
   transform: scale(1.5);
   cursor: pointer;
   @media only screen and (max-width: 360px) {
-    width: 2.5rem;
+    width: 3rem;
     height: 0.75rem;
   }
 `;
@@ -47,7 +48,7 @@ export const Circle = styled.div`
   @media only screen and (max-width: 360px) {
     width: 1.85rem;
     height: 1.85rem;
-    left: -3.5rem;
+    left: -4.2rem;
   }
 `;
 
@@ -74,9 +75,9 @@ export const StyledCheckbox = styled.input`
   position: relative;
 
   &:checked + ${StyledLabel} + ${Circle} {
-    transform: translateX(2.7rem);
+    transform: translateX(2.9rem);
     @media only screen and (max-width: 360px) {
-      transform: translateX(2.1rem);
+      transform: translateX(2.9rem);
     }
   }
 
