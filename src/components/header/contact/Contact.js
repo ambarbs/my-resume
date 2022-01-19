@@ -7,7 +7,7 @@ const Contact = ({ Icon, text, isUrl = false }) => {
   const theme = useTheme();
   return (
     <ContactWrapper>
-      <a href={text} target="_blank">
+      <a href={text} target="_blank" rel="noopener noreferrer">
         <Icon size="1.2em" color={theme.type === 'dark' ? '#4B79A6FF' : '#565252'} />
       </a>
       {!isUrl && <ContactText>{text}</ContactText>}

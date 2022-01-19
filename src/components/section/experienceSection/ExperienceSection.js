@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { ImageWrapper, SubSectionText, SubSectionTextLi } from '../subSection/SubSection.Styles';
+import { ImageWrapper, SubSectionTextLi } from '../subSection/SubSection.Styles';
 import {
   ExperienceSectionWrapper,
   H3,
@@ -54,4 +54,6 @@ ExperienceSection.propTypes = {
   subSectionTitle: PropTypes.string,
   yearsWorked: PropTypes.string,
   workTitle: PropTypes.string,
+  subSectionIcon: PropTypes.node,
+  subSectionTexts: PropTypes.arrayOf(PropTypes.string),
 };

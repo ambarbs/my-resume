@@ -1,4 +1,3 @@
-import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { GrLinkedin } from 'react-icons/gr';
 import { BsGithub } from 'react-icons/bs';
