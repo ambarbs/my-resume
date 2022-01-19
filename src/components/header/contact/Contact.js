@@ -22,7 +22,7 @@ const Contact = ({ Icon, text, isUrl = false, hideOnWebPage = false }) => {
 export default Contact;
 
 Contact.propTypes = {
-  Icon: PropTypes.element.isRequired,
+  Icon: PropTypes.func.isRequired,
   text: PropTypes.string.isRequired,
   isUrl: PropTypes.bool,
   hideOnWebPage: PropTypes.bool,

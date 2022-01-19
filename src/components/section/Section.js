@@ -10,6 +10,7 @@ const Section = ({ sectionHeader, SectionHeaderIcon, subSections = [] }) => (
     {subSections.map((subSection) =>
       subSection.subSectionIcon ? (
         <ExperienceSection
+          key={`${subSection.subSectionTitle}-${subSection.subSectionText}`}
           subSectionIcon={subSection.subSectionIcon}
           subSectionTitle={subSection.subSectionTitle}
           subSectionTexts={subSection.subSectionTexts}
@@ -18,6 +19,7 @@ const Section = ({ sectionHeader, SectionHeaderIcon, subSections = [] }) => (
         />
       ) : (
         <SubSection
+          key={`${subSection.subSectionTitle}-${subSection.subSectionText}`}
           subSectionTitle={subSection.subSectionTitle}
           subSectionText={subSection.subSectionText}
         />

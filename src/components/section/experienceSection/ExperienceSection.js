@@ -38,7 +38,7 @@ const ExperienceSection = ({
         <H3>{workTitle}</H3>
         <BulletList>
           {subSectionTexts.map((subSectionText) => (
-            <SubSectionTextLi>{subSectionText}</SubSectionTextLi>
+            <SubSectionTextLi key={subSectionText}>{subSectionText}</SubSectionTextLi>
           ))}
         </BulletList>
       </div>
