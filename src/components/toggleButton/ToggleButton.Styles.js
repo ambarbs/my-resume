@@ -37,7 +37,7 @@ export const Circle = styled.div`
   height: 2rem;
   background-color: white;
   position: relative;
-  left: -4rem;
+  left: -4.25rem;
   border-radius: 50%;
   transition: transform 0.2s linear;
   @media only screen and (max-width: 360px) {
@@ -49,19 +49,19 @@ export const Circle = styled.div`
 
 const changeColorOfLabel = keyframes`
   from {
-    background-color: #111
+    background-color: #967d7d
   }
   to {
-    background: #967d7d;
+    background: #111;
   }
 `
 
 const changeColorOfLabelReverse = keyframes`
   from {
-    background-color: #967d7d
+    background-color: #111
   }
   to {
-    background: #111;
+    background: #967d7d;
   }
 `
 

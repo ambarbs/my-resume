@@ -107,7 +107,7 @@ export const sections = [
                 workTitle: 'Software Developer',
                 yearsWorked: 'Sep 2015 - Jul 2017',
                 subSectionTexts: ['Successfully developed and deployed multiple features – Compare Chart, Debt Vs Super, Savings journey (complete flow)',
-                'Runner-up in IRESS Global Hackathon 2016']
+                'Prize winner in IRESS Global Hackathon 2016']
             },
             {
                 subSectionTitle: 'Oracle',
