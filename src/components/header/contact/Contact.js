@@ -7,7 +7,7 @@ const Contact = ({ Icon, text, link, isUrl = false, hideOnWebPage = false }) => 
   const theme = useTheme();
   return (
     <ContactWrapper visibility={hideOnWebPage ? 'hidden' : 'visible'}>
-      <a href={text} target="_blank" rel="noopener noreferrer">
+      <a href={link || text} target="_blank" rel="noopener noreferrer">
         <Icon size="1.2em" color={theme.type === 'dark' ? '#4B79A6FF' : '#565252'} />
       </a>
       {!isUrl && <ContactText>{text}</ContactText>}
