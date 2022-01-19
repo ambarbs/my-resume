@@ -12,7 +12,7 @@ const ToggleButton = ({handleOnCheck}) => {
         <StyledCheckbox type="checkbox" className="checkbox" id="checkbox" onChange={handleCheck}/>
         <StyledLabel htmlFor="checkbox">
             <FiSun size='1.15em' color="yellow"/>
-            <BsMoonFill size='1.15em' color="lightgrey"/>
+            <BsMoonFill size='1.15em' color="black"/>
         </StyledLabel>
         <Circle/>
     </ToggleButtonWrapper>
