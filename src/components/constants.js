@@ -5,6 +5,7 @@ import {BsGithub} from "react-icons/bs";
 import {FaNpm} from "react-icons/fa";
 import {GiSkills} from "react-icons/gi";
 import {BsClock} from "react-icons/bs";
+import {CgScreen} from "react-icons/cg";
 
 import logoIAG from '../assets/logos/iag.png';
 import logoRapiscan from '../assets/logos/rapiscan.png';
@@ -166,6 +167,11 @@ export const contacts = [
     {
         icon: FaNpm,
         text: 'https://www.npmjs.com/~ambar_bs',
+        isUrl: true,
+    },
+    {
+        icon: CgScreen,
+        text: 'https://ambarbs.github.io/my-resume/',
         isUrl: true,
     }
 ]

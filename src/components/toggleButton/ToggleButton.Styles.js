@@ -12,6 +12,10 @@ export const ToggleButtonWrapper = styled.div`
     top: 0.75rem;
     right: 3rem;
   }
+
+  @media print {
+    display: none;
+  }
 `
 
 export const StyledLabel = styled.label`

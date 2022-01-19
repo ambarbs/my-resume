@@ -7,6 +7,9 @@ export const SubSectionTitle = styled.label`
     font-size: medium;
     word-break: break-word;
   }
+  @media print {
+    font-size: x-small;
+  }
 `
 
 export const SubSectionText = styled.label`
@@ -15,6 +18,9 @@ export const SubSectionText = styled.label`
   @media only screen and (max-width: 360px) {
     font-size: 0.9rem;
   }
+  @media print {
+    font-size: x-small;
+  }
 `
 
 export const SubSectionTextLi = styled.li`
@@ -22,6 +28,9 @@ export const SubSectionTextLi = styled.li`
   text-align: left;
   @media only screen and (max-width: 360px) {
     font-size: 0.9rem;
+  }
+  @media print {
+    font-size: x-small;
   }
 `
 
@@ -33,6 +42,9 @@ export const SubSectionWrapper = styled.div`
   padding: 0.5rem 0.5rem 0.5rem 0;
   @media only screen and (max-width: 360px) {
     column-gap: 0.5rem;
+  }
+  @media print {
+    padding: 0.2rem 0.5rem 0.2rem 0;
   }
 `
 

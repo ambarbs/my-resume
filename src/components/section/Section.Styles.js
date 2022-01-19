@@ -8,6 +8,9 @@ export const SectionHeaderText = styled.label`
   @media only screen and (max-width: 360px) {
     font-size: 1.25rem;
   }
+  @media print {
+    font-size: 1rem;
+  }
 `
 
 export const SectionHeaderWrapper = styled.div`
@@ -30,6 +33,12 @@ export const SectionWrapper = styled.section`
   margin-bottom: 0.5rem;
   & ${SectionHeaderWrapper}{ 
     margin-bottom: 0.5rem;
+  }
+  @media print {
+    & ${SectionHeaderWrapper}{
+      margin-top: 1rem;
+      margin-bottom: 0.2rem;
+    }
   }
 `
 

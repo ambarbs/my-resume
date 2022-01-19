@@ -5,16 +5,25 @@ export const Strong = styled.strong`
   @media only screen and (max-width: 360px) {
     font-size: small;
   }
+  @media print {
+    font-size: x-small;
+  }
 `
 export const Label = styled.label`
   @media only screen and (max-width: 360px) {
     font-size: 0.8rem;
+  }
+  @media print {
+    font-size: x-small;
   }
 `
 export const H3 = styled.h3`
   @media only screen and (max-width: 360px) {
     font-size: 0.9rem;
     padding-left: 1rem;
+  }
+  @media print {
+    font-size: x-small;
   }
 `
 
@@ -27,6 +36,11 @@ export const LeftInnerWrapper = styled.div`
   @media only screen and (max-width: 360px) {
     & ${Strong} {
       padding-bottom: 1rem;
+    }
+  }
+  @media print {
+    & ${Strong} {
+      padding-bottom: 0.5rem;
     }
   }
 `
@@ -54,6 +68,9 @@ export const LeftOuterWrapper = styled.div`
 
 export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
   column-gap: 0.25rem;
+  @media print {
+    margin-bottom: 0.5rem;
+  }
 `
 
 export const ImageContainer = styled.div`

@@ -15,6 +15,9 @@ export const ContactWrapper = styled.div`
   @media only screen and (max-width: 560px) {
     font-size: small;
   }
+  @media print {
+    font-size: x-small;
+  }
 `
 
 export const ContactText = styled.label`
