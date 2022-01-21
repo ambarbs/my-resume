@@ -22,4 +22,7 @@ export const TechStackListWrapper = styled(ColumnList)`
   ${H5} {
     padding-right: 1rem;
   }
+  @media print {
+    font-size: x-small;
+  }
 `;

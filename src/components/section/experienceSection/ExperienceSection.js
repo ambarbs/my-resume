@@ -1,19 +1,15 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { ImageWrapper, SubSectionTextLi } from '../subSection/SubSection.Styles';
+import { ImageWrapper } from '../subSection/SubSection.Styles';
 import {
-  ColumnList,
   ExperienceSectionWrapper,
   H3,
-  H5,
   ImageContainer,
   Label,
   LeftInnerWrapper,
   LeftOuterWrapper,
-  ListWrapper,
   Strong,
 } from './ExperienceSection.Styles';
-import styled from 'styled-components';
 import TechStack from './techStack/TechStack';
 import { List } from './List';
 
@@ -39,7 +35,7 @@ const ExperienceSection = ({
       <div>
         <H3>{workTitle}</H3>
         <List title="Projects & responsibilities" subSectionTexts={subSectionTexts} />
-        <TechStack techStack={techStack} />
+        {techStack && <TechStack techStack={techStack} />}
       </div>
     </ExperienceSectionWrapper>
   );

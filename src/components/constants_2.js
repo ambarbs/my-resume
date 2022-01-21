@@ -137,8 +137,8 @@ const experienceSection = {
         'Integrated selenium with CI build system.',
       ],
       techStack: {
-        frontend: 'Vanilla JS, jQuery, Less, Responsive design',
-        backend: 'Java, Spring Boot, Spring MVC',
+        frontend: 'AEM, Vanilla JS, jQuery, Less, Responsive design',
+        backend: 'Java, Spring Boot, Spring MVC, AEM',
       },
     },
     {
@@ -148,8 +148,14 @@ const experienceSection = {
       yearsWorked: 'Sep 2015 - Jul 2017',
       subSectionTexts: [
         'Successfully developed and deployed multiple features – Compare Chart, Debt Vs Super, Savings journey (complete flow)',
+        'Have provided full stack development support and worked extensively with the backend Python team.',
+        "Interfaced with business analysts, product owner, UX consultant and other teams' engineers to determine the best requirement specifications.",
         'Prize winner in IRESS Global Hackathon 2016',
       ],
+      techStack: {
+        frontend: 'JavaScript, Backbone JS, React, Redux, TypeScript, Less',
+        backend: 'Python',
+      },
     },
     {
       subSectionTitle: 'Oracle',
@@ -159,7 +165,12 @@ const experienceSection = {
       subSectionTexts: [
         'Successfully changed theme of the product, single-handedly and delivered before deadline without any prior knowledge of JavaScript/CSS',
         'Developed full-stack features for Event Scheduling and Cancelling a task for Oracle Primavera',
+        'Reviewing code of fellow developers, mainly front-end.',
       ],
+      techStack: {
+        frontend: 'Vanilla JS, jQuery, Backbone, Less, Responsive design',
+        backend: 'Java, Spring Boot, Spring MVC',
+      },
     },
     {
       subSectionTitle: 'Cisco Systems',
@@ -181,7 +192,7 @@ const experienceSection = {
       ],
     },
     {
-      subSectionTitle: 'Indience InfoSystems (AKA Unvired)',
+      subSectionTitle: 'Indience Info Systems (AKA Unvired)',
       subSectionIcon: logoIndience,
       workTitle: 'Senior Software Engineer',
       yearsWorked: 'Jul 2008 - Sep 2010',

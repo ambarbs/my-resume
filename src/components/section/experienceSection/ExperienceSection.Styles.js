@@ -75,6 +75,9 @@ export const LeftOuterWrapper = styled.div`
 
 export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
   column-gap: 0.25rem;
+  & ${LeftOuterWrapper} {
+    margin-right: 4rem;
+  }
   @media print {
     margin-bottom: 0.5rem;
   }

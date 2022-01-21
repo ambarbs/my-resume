@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SubSectionTitle = styled.label`
-  font-size: larger;
+  font-size: 1rem;
   font-weight: bold;
   @media only screen and (max-width: 360px) {
     font-size: medium;
@@ -13,7 +13,7 @@ export const SubSectionTitle = styled.label`
 `;
 
 export const SubSectionText = styled.label`
-  font-size: larger;
+  font-size: 1rem;
   text-align: left;
   @media only screen and (max-width: 360px) {
     font-size: 0.9rem;
@@ -41,6 +41,9 @@ export const SubSectionWrapper = styled.div`
   column-gap: 0.25rem;
   grid-template-columns: 2fr 9fr;
   padding: 0.5rem 0.5rem 0.5rem 0;
+  & ${SubSectionTitle} {
+    margin-right: 4rem;
+  }
   @media only screen and (max-width: 360px) {
     column-gap: 0.5rem;
   }
