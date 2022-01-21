@@ -60,7 +60,7 @@ export const sections = [
         subSectionTitle: 'Luxury Escapes',
         subSectionIcon: logoLE,
         workTitle: 'Senior Software Engineer - Contract',
-        yearsWorked: 'Sep 2020 - Mar 2020',
+        yearsWorked: 'Oct 2020 - Mar 2021',
         subSectionTexts: [
           'Developed new features on the Luxury Escapes customer website and admin app. Code Review of peers.',
           'Developed the Flight Search UI based new sets of APIs',
