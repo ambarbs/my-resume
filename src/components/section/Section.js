@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import { SectionWrapper } from './Section.Styles';
 import SectionHeader from './SectionHeader';
@@ -16,6 +17,7 @@ const Section = ({ sectionHeader, SectionHeaderIcon, subSections = [] }) => (
           subSectionTexts={subSection.subSectionTexts}
           yearsWorked={subSection.yearsWorked}
           workTitle={subSection.workTitle}
+          techStack={subSection.techStack}
         />
       ) : (
         <SubSection
@@ -29,3 +31,9 @@ const Section = ({ sectionHeader, SectionHeaderIcon, subSections = [] }) => (
 );
 
 export default Section;
+
+Section.propTypes = {
+  SectionHeaderIcon: PropTypes.func,
+  sectionHeader: PropTypes.string,
+  subSections: PropTypes.array,
+};

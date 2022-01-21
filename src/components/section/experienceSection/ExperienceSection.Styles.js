@@ -27,6 +27,14 @@ export const H3 = styled.h3`
   }
 `;
 
+export const H5 = styled.h5`
+  margin: 0;
+`;
+
+export const H6 = styled.h6`
+  margin: 0;
+`;
+
 export const LeftInnerWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -83,4 +91,21 @@ export const ImageContainer = styled.div`
     height: unset;
     padding-top: 1rem;
   }
+`;
+
+export const ColumnList = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+`;
+
+export const ListWrapper = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+`;
+
+export const BulletList = styled.ul`
+  list-style-type: disc;
 `;

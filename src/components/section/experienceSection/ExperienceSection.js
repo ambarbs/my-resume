@@ -2,19 +2,20 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { ImageWrapper, SubSectionTextLi } from '../subSection/SubSection.Styles';
 import {
+  ColumnList,
   ExperienceSectionWrapper,
   H3,
+  H5,
   ImageContainer,
   Label,
   LeftInnerWrapper,
   LeftOuterWrapper,
+  ListWrapper,
   Strong,
 } from './ExperienceSection.Styles';
 import styled from 'styled-components';
-
-const BulletList = styled.ul`
-  list-style-type: disc;
-`;
+import TechStack from './techStack/TechStack';
+import { List } from './List';
 
 const ExperienceSection = ({
   subSectionTitle,
@@ -22,6 +23,7 @@ const ExperienceSection = ({
   yearsWorked,
   workTitle,
   subSectionTexts,
+  techStack,
 }) => {
   return (
     <ExperienceSectionWrapper>
@@ -36,11 +38,8 @@ const ExperienceSection = ({
       </LeftOuterWrapper>
       <div>
         <H3>{workTitle}</H3>
-        <BulletList>
-          {subSectionTexts.map((subSectionText) => (
-            <SubSectionTextLi key={subSectionText}>{subSectionText}</SubSectionTextLi>
-          ))}
-        </BulletList>
+        <List title="Projects & responsibilities" subSectionTexts={subSectionTexts} />
+        <TechStack techStack={techStack} />
       </div>
     </ExperienceSectionWrapper>
   );
@@ -56,4 +55,8 @@ ExperienceSection.propTypes = {
   workTitle: PropTypes.string,
   subSectionIcon: PropTypes.node,
   subSectionTexts: PropTypes.arrayOf(PropTypes.string),
+  techStack: PropTypes.shape({
+    frontend: PropTypes.string,
+    backend: PropTypes.string,
+  }),
 };

@@ -24,8 +24,9 @@ export const SubSectionText = styled.label`
 `;
 
 export const SubSectionTextLi = styled.li`
-  font-size: larger;
+  font-size: 1rem;
   text-align: left;
+
   @media only screen and (max-width: 360px) {
     font-size: 0.9rem;
   }
