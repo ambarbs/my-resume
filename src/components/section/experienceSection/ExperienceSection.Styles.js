@@ -37,13 +37,11 @@ export const H5 = styled.h5`
 export const LeftInnerWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   text-align: left;
-  @media only screen and (max-width: 360px) {
-    & ${Strong} {
-      padding-bottom: 1rem;
-    }
+  & ${Strong} {
+    padding-bottom: 0.8rem;
   }
   @media print {
     & ${Strong} {
