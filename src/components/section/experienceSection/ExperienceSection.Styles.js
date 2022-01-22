@@ -29,6 +29,9 @@ export const H3 = styled.h3`
 
 export const H5 = styled.h5`
   margin: 0;
+  @media print {
+    font-size: x-small;
+  }
 `;
 
 export const LeftInnerWrapper = styled.div`

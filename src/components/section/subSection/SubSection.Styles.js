@@ -39,16 +39,11 @@ export const SubSectionWrapper = styled.div`
   width: 100%;
   display: grid;
   column-gap: 0.25rem;
-  grid-template-columns: 2fr 9fr;
+  grid-template-columns: 3fr 8fr;
   padding: 0.5rem 0.5rem 0.5rem 0;
-  & ${SubSectionTitle} {
-    margin-right: 4rem;
-  }
+
   @media only screen and (max-width: 360px) {
     column-gap: 0.5rem;
-    & ${SubSectionTitle} {
-      margin-right: unset;
-    }
   }
   @media print {
     padding: 0.2rem 0.5rem 0.2rem 0;
