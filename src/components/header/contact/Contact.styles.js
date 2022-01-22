@@ -8,8 +8,8 @@ export const ContactSectionWrapper = styled.section`
   min-height: 100%;
 `;
 export const ContactWrapper = styled.div`
-  visibility: ${({ visibility }) => visibility};
-  display: flex;
+  display: ${({ display }) => display};
+  //display: flex;
   justify-content: center;
   align-items: center;
   font-size: larger;
@@ -18,7 +18,7 @@ export const ContactWrapper = styled.div`
   }
   @media print {
     font-size: x-small;
-    visibility: visible;
+    display: flex;
   }
 `;
 
