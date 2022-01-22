@@ -233,6 +233,7 @@ export const contacts = [
     icon: AiOutlineMail,
     text: 'ambar.bs@gmail.com',
     isUrl: false,
+    isEmail: true,
   },
   {
     icon: GrLinkedin,

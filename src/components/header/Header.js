@@ -15,6 +15,7 @@ const Header = ({ contacts = [] }) => (
           text={contact.text}
           link={contact.link}
           isUrl={contact.isUrl}
+          isEmail={contact.isEmail}
           hideOnWebPage={contact.hideOnWebPage}
         />
       ))}
