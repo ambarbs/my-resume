@@ -4,7 +4,7 @@ export const SubSectionTitle = styled.label`
   font-size: 1rem;
   font-weight: bold;
   @media only screen and (max-width: 360px) {
-    font-size: medium;
+    font-size: 0.83em;
     word-break: break-word;
   }
   @media print {

@@ -9,7 +9,6 @@ export const ContactSectionWrapper = styled.section`
 `;
 export const ContactWrapper = styled.div`
   display: ${({ display }) => display};
-  //display: flex;
   justify-content: center;
   align-items: center;
   font-size: larger;
