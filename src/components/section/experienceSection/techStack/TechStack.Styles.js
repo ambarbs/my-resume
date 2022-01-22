@@ -34,3 +34,10 @@ export const StyledUL = styled.ul`
     padding-inline-start: 2rem;
   }
 `;
+
+export const StyledLi = styled.li`
+  font-size: 1rem;
+  @media only screen and (max-width: 360px) {
+    font-size: 0.9rem;
+  }
+`;

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Row, StyledUL, TechStackListWrapper } from './TechStack.Styles';
+import { Row, StyledLi, StyledUL, TechStackListWrapper } from './TechStack.Styles';
 import { H5 } from '../ExperienceSection.Styles';
 
 const TechStack = ({ techStack }) => (
@@ -8,20 +8,20 @@ const TechStack = ({ techStack }) => (
     <H5>Tech-stack</H5>
     <StyledUL>
       {techStack.frontend && (
-        <li>
+        <StyledLi>
           <Row>
             <H5>Frontend</H5>
             <label>{techStack.frontend}</label>
           </Row>
-        </li>
+        </StyledLi>
       )}
       {techStack.backend && (
-        <li>
+        <StyledLi>
           <Row>
             <H5>Backend</H5>
             <label>{techStack.backend}</label>
           </Row>
-        </li>
+        </StyledLi>
       )}
     </StyledUL>
   </TechStackListWrapper>
