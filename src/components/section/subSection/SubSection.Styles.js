@@ -46,6 +46,9 @@ export const SubSectionWrapper = styled.div`
   }
   @media only screen and (max-width: 360px) {
     column-gap: 0.5rem;
+    & ${SubSectionTitle} {
+      margin-right: unset;
+    }
   }
   @media print {
     padding: 0.2rem 0.5rem 0.2rem 0;

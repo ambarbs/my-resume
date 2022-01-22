@@ -20,7 +20,7 @@ export const Label = styled.label`
 export const H3 = styled.h3`
   @media only screen and (max-width: 360px) {
     font-size: 0.9rem;
-    padding-left: 1rem;
+    //padding-left: 1rem;
   }
   @media print {
     font-size: x-small;
@@ -28,10 +28,6 @@ export const H3 = styled.h3`
 `;
 
 export const H5 = styled.h5`
-  margin: 0;
-`;
-
-export const H6 = styled.h6`
   margin: 0;
 `;
 
@@ -63,12 +59,14 @@ export const LeftOuterWrapper = styled.div`
   }
 
   @media only screen and (max-width: 360px) {
-    flex-direction: column;
-    align-items: flex-start;
+    //flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     word-break: break-word;
     & ${LeftInnerWrapper} {
       padding-left: unset;
       padding-top: 1rem;
+      margin-left: 2rem;
     }
   }
 `;
@@ -77,6 +75,11 @@ export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
   column-gap: 0.25rem;
   & ${LeftOuterWrapper} {
     margin-right: 4rem;
+  }
+
+  @media only screen and (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
   }
   @media print {
     margin-bottom: 0.5rem;

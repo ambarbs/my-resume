@@ -26,3 +26,11 @@ export const TechStackListWrapper = styled(ColumnList)`
     font-size: x-small;
   }
 `;
+export const StyledUL = styled.ul`
+  > li {
+    padding-top: 0.5rem;
+  }
+  @media only screen and (max-width: 360px) {
+    padding-inline-start: 2rem;
+  }
+`;
