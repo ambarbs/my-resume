@@ -1,31 +1,35 @@
 {
   "files": {
     "main.css": "/my-resume/static/css/main.a365ad36.chunk.css",
-    "main.js": "/my-resume/static/js/main.6b6a3b1b.chunk.js",
-    "main.js.map": "/my-resume/static/js/main.6b6a3b1b.chunk.js.map",
-    "runtime-main.js": "/my-resume/static/js/runtime-main.60eb0b0f.js",
-    "runtime-main.js.map": "/my-resume/static/js/runtime-main.60eb0b0f.js.map",
-    "static/js/2.85ac2099.chunk.js": "/my-resume/static/js/2.85ac2099.chunk.js",
-    "static/js/2.85ac2099.chunk.js.map": "/my-resume/static/js/2.85ac2099.chunk.js.map",
-    "static/js/3.bb8db20a.chunk.js": "/my-resume/static/js/3.bb8db20a.chunk.js",
-    "static/js/3.bb8db20a.chunk.js.map": "/my-resume/static/js/3.bb8db20a.chunk.js.map",
+    "main.js": "/my-resume/static/js/main.e57f3062.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.e57f3062.chunk.js.map",
+    "runtime-main.js": "/my-resume/static/js/runtime-main.878dd10b.js",
+    "runtime-main.js.map": "/my-resume/static/js/runtime-main.878dd10b.js.map",
+    "static/js/2.cf991887.chunk.js": "/my-resume/static/js/2.cf991887.chunk.js",
+    "static/js/2.cf991887.chunk.js.map": "/my-resume/static/js/2.cf991887.chunk.js.map",
+    "static/js/3.940754f8.chunk.js": "/my-resume/static/js/3.940754f8.chunk.js",
+    "static/js/3.940754f8.chunk.js.map": "/my-resume/static/js/3.940754f8.chunk.js.map",
     "index.html": "/my-resume/index.html",
-    "precache-manifest.4140dc7c53202d1d2d2a10d4ab899033.js": "/my-resume/precache-manifest.4140dc7c53202d1d2d2a10d4ab899033.js",
+    "precache-manifest.43cd9fe176b56c69caccf8965672c133.js": "/my-resume/precache-manifest.43cd9fe176b56c69caccf8965672c133.js",
     "service-worker.js": "/my-resume/service-worker.js",
     "static/css/main.a365ad36.chunk.css.map": "/my-resume/static/css/main.a365ad36.chunk.css.map",
-    "static/js/2.85ac2099.chunk.js.LICENSE.txt": "/my-resume/static/js/2.85ac2099.chunk.js.LICENSE.txt",
+    "static/js/2.cf991887.chunk.js.LICENSE.txt": "/my-resume/static/js/2.cf991887.chunk.js.LICENSE.txt",
     "static/media/Indience.png": "/my-resume/static/media/Indience.c114aacc.png",
+    "static/media/binaryClock.png": "/my-resume/static/media/binaryClock.1b65a5c6.png",
+    "static/media/chess.png": "/my-resume/static/media/chess.d8c03729.png",
     "static/media/coreLogic.jpg": "/my-resume/static/media/coreLogic.f52dbcdf.jpg",
     "static/media/iag.png": "/my-resume/static/media/iag.ef88eabe.png",
     "static/media/iress.jpg": "/my-resume/static/media/iress.0e92c8f0.jpg",
     "static/media/luxury-escapes-logo.jpg": "/my-resume/static/media/luxury-escapes-logo.9ea0d815.jpg",
+    "static/media/memoryGame.png": "/my-resume/static/media/memoryGame.b5bb33ed.png",
     "static/media/optusSport.png": "/my-resume/static/media/optusSport.ea48ff32.png",
-    "static/media/tab.jpg": "/my-resume/static/media/tab.e54bebe9.jpg"
+    "static/media/tab.jpg": "/my-resume/static/media/tab.e54bebe9.jpg",
+    "static/media/ticTacToe.png": "/my-resume/static/media/ticTacToe.64e109cb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.60eb0b0f.js",
-    "static/js/2.85ac2099.chunk.js",
+    "static/js/runtime-main.878dd10b.js",
+    "static/js/2.cf991887.chunk.js",
     "static/css/main.a365ad36.chunk.css",
-    "static/js/main.6b6a3b1b.chunk.js"
+    "static/js/main.e57f3062.chunk.js"
   ]
 }
