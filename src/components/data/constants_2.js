@@ -22,6 +22,9 @@ import logoCisco from '../../assets/logos/cisco.png';
 import logoYodlee from '../../assets/logos/yodlee.png';
 import logoIndience from '../../assets/logos/Indience.png';
 import memoryGame from '../../assets/projects/memoryGame.png';
+import ticTacToe from '../../assets/projects/ticTacToe.png';
+import chess from '../../assets/projects/chess.png';
+import binaryClock from '../../assets/projects/binaryClock.png';
 import { ImageGrid } from '../common/Common.Styles';
 import { ImageWrapper } from '../section/subSection/SubSection.Styles';
 
@@ -213,6 +216,7 @@ const experienceSection = {
 // eslint-disable-next-line
 const experienceSectionIntegrated = {
   header: 'Experience',
+  type: 'experience',
   headerIcon: BsClock,
   subSections: [
     {
@@ -377,6 +381,25 @@ const personalProjects = {
       description: 'Memory game of cards built with React, Redux and CSS',
       link: 'https://ambarbs.github.io/memory-game/',
     },
+    {
+      image: ticTacToe,
+      title: 'Tic Tac Toe',
+      description: 'Tic Tac Toe built with React, Redux, Material UI, Bootstrap and CSS',
+      link: 'https://tic-tac-toe-vs-comp.herokuapp.com/',
+    },
+    {
+      image: chess,
+      title: 'Chess online',
+      description:
+        'Chess online multiplayer built with React, Redux, Styled Components and Google Cloud',
+      link: 'https://chess-me-if-you-can.herokuapp.com/',
+    },
+    {
+      image: binaryClock,
+      title: 'Binary clock',
+      description: 'Binary clock built with React',
+      link: 'https://binary-watch.herokuapp.com/',
+    },
   ],
 };
 
@@ -408,7 +431,7 @@ export const sections = [
 export const contacts = [
   {
     icon: AiOutlineMail,
-    text: 'ambarbose@hotmail.com',
+    text: 'ambar.bs@gmail.com',
     isUrl: false,
     isEmail: true,
   },

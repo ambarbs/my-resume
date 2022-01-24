@@ -35,6 +35,8 @@ export const SectionWrapper = styled.section`
     margin-bottom: 0.5rem;
   }
   @media print {
+    margin-top: 0.5rem;
+    margin-bottom: 0.4rem;
     & ${SectionHeaderWrapper} {
       margin-top: 1rem;
       margin-bottom: 0.2rem;

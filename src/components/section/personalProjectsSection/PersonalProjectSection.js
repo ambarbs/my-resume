@@ -15,7 +15,9 @@ const PersonalProjectSection = ({ project }) => (
     </Row>
     <Column>
       <Label>{project.description}</Label>
-      <a href={project.link}>{project.link}</a>
+      <a href={project.link} target="_blank" rel="noopener noreferrer">
+        {project.link}
+      </a>
     </Column>
   </PersonalProjectSectionWrapper>
 );

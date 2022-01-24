@@ -13,7 +13,7 @@ export const HeaderWrapper = styled.section`
     height: 6rem;
   }
   @media print {
-    height: 3rem;
+    height: 2rem;
     margin-bottom: 0.25rem;
   }
 `;

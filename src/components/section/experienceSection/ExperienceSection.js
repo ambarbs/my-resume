@@ -22,7 +22,6 @@ const ExperienceSection = ({
   techStack,
   imageGrid = false,
 }) => {
-  console.log({ subSectionTitles });
   return (
     <ExperienceSectionWrapper>
       <LeftOuterWrapper>

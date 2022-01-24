@@ -35,7 +35,12 @@ const Section = ({ sectionHeader, type, SectionHeaderIcon, subSections = [] }) =
               />
             );
           case 'personal':
-            return <PersonalProjectSection project={subSection} />;
+            return (
+              <PersonalProjectSection
+                key={`${subSection.title}-${subSection.description}`}
+                project={subSection}
+              />
+            );
         }
       })}
     </SectionWrapper>
