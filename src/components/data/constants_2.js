@@ -28,7 +28,7 @@ import binaryClock from '../../assets/projects/binaryClock.png';
 import { ImageGrid } from '../common/Common.Styles';
 import { ImageWrapper } from '../section/subSection/SubSection.Styles';
 
-const experienceSection = {
+export const experienceSection = {
   header: 'Experience',
   type: 'experience',
   headerIcon: BsClock,
@@ -214,7 +214,7 @@ const experienceSection = {
 };
 
 // eslint-disable-next-line
-const experienceSectionIntegrated = {
+export const experienceSectionIntegrated = {
   header: 'Experience',
   type: 'experience',
   headerIcon: BsClock,
@@ -424,7 +424,7 @@ export const sections = [
       },
     ],
   },
-  experienceSection,
+  // experienceSection,
   personalProjects,
 ];
 
