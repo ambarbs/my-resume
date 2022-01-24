@@ -1,22 +1,7 @@
 import styled from 'styled-components';
 import { SubSectionWrapper } from '../subSection/SubSection.Styles';
+import { Row, Strong } from '../../common/Common.Styles';
 
-export const Strong = styled.strong`
-  @media only screen and (max-width: 360px) {
-    font-size: small;
-  }
-  @media print {
-    font-size: x-small;
-  }
-`;
-export const Label = styled.label`
-  @media only screen and (max-width: 360px) {
-    font-size: 0.8rem;
-  }
-  @media print {
-    font-size: x-small;
-  }
-`;
 export const H3 = styled.h3`
   @media only screen and (max-width: 360px) {
     font-size: 0.9rem;
@@ -50,7 +35,7 @@ export const LeftInnerWrapper = styled.div`
   }
 `;
 
-export const LeftOuterWrapper = styled.div`
+export const LeftOuterWrapper = styled(Row)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -60,7 +45,6 @@ export const LeftOuterWrapper = styled.div`
   }
 
   @media only screen and (max-width: 360px) {
-    //flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     word-break: break-word;
@@ -89,7 +73,7 @@ export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
 
 export const ImageContainer = styled.div`
   height: 100%;
-  width: 3rem;
+  width: ${({ width }) => width || '5rem'};
   display: flex;
   justify-content: center;
   align-items: center;

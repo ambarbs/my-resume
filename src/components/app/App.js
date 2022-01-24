@@ -25,6 +25,7 @@ function App() {
             <Section
               key={section.header}
               sectionHeader={section.header}
+              type={section.type}
               SectionHeaderIcon={section.headerIcon}
               subSections={section.subSections}
             />

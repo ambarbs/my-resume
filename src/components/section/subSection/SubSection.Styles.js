@@ -51,8 +51,8 @@ export const SubSectionWrapper = styled.div`
 `;
 
 export const ImageWrapper = styled.img`
-  width: 3rem;
-  height: 3rem;
+  width: ${({ width }) => width || '3rem'};
+  height: ${({ height }) => height || '3rem'};
   border-radius: inherit;
   @media only screen and (max-width: 360px) {
     width: 2.5rem;

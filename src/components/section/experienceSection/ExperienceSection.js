@@ -5,13 +5,12 @@ import {
   ExperienceSectionWrapper,
   H3,
   ImageContainer,
-  Label,
   LeftInnerWrapper,
   LeftOuterWrapper,
-  Strong,
 } from './ExperienceSection.Styles';
 import TechStack from './techStack/TechStack';
 import { List } from './List';
+import { Label, Strong } from '../../common/Common.Styles';
 
 const ExperienceSection = ({
   subSectionTitle,

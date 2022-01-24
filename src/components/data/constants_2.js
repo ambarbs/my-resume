@@ -6,6 +6,7 @@ import { FaNpm } from 'react-icons/fa';
 import { GiSkills } from 'react-icons/gi';
 import { BsClock } from 'react-icons/bs';
 import { CgScreen } from 'react-icons/cg';
+import { FaProjectDiagram } from 'react-icons/fa';
 
 import logoIAG from '../../assets/logos/iag.png';
 import logoRapiscan from '../../assets/logos/rapiscan.png';
@@ -20,11 +21,13 @@ import logoOracle from '../../assets/logos/oracle.png';
 import logoCisco from '../../assets/logos/cisco.png';
 import logoYodlee from '../../assets/logos/yodlee.png';
 import logoIndience from '../../assets/logos/Indience.png';
+import memoryGame from '../../assets/projects/memoryGame.png';
 import { ImageGrid } from '../common/Common.Styles';
 import { ImageWrapper } from '../section/subSection/SubSection.Styles';
 
 const experienceSection = {
   header: 'Experience',
+  type: 'experience',
   headerIcon: BsClock,
   subSections: [
     {
@@ -363,6 +366,20 @@ const experienceSectionIntegrated = {
   ],
 };
 
+const personalProjects = {
+  header: 'Personal Projects',
+  type: 'personal',
+  headerIcon: FaProjectDiagram,
+  subSections: [
+    {
+      image: memoryGame,
+      title: 'Memory Game',
+      description: 'Memory game of cards built with React, Redux and CSS',
+      link: 'https://ambarbs.github.io/memory-game/',
+    },
+  ],
+};
+
 export const sections = [
   {
     header: 'Skills',
@@ -385,6 +402,7 @@ export const sections = [
     ],
   },
   experienceSection,
+  personalProjects,
 ];
 
 export const contacts = [

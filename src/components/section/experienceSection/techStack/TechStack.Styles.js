@@ -1,12 +1,6 @@
 import styled from 'styled-components';
 import { ColumnList, H5 } from '../ExperienceSection.Styles';
 
-export const Row = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-`;
-
 export const TechStackListWrapper = styled(ColumnList)`
   ${H5} {
     padding-right: 1rem;

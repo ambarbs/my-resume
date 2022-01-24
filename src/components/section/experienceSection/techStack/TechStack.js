@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Row, StyledLi, StyledUL, TechStackListWrapper } from './TechStack.Styles';
+import { StyledLi, StyledUL, TechStackListWrapper } from './TechStack.Styles';
 import { H5 } from '../ExperienceSection.Styles';
+import { Row } from '../../../common/Common.Styles';
 
 const TechStack = ({ techStack }) => (
   <TechStackListWrapper>
