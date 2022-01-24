@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AppWrapper } from './App.styles';
 import Header from '../header/Header';
 import Section from '../section/Section';
-import { contacts, sections } from '../constants_2';
+import { contacts, sections } from '../data/constants_2';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from '../theme/Global.Styles';
 import { LightTheme, DarkTheme } from '../theme/Themes';

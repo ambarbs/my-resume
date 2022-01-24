@@ -14,10 +14,12 @@ const Section = ({ sectionHeader, SectionHeaderIcon, subSections = [] }) => (
           key={`${subSection.subSectionTitle}-${subSection.subSectionText}`}
           subSectionIcon={subSection.subSectionIcon}
           subSectionTitle={subSection.subSectionTitle}
+          subSectionTitles={subSection.subSectionTitles}
           subSectionTexts={subSection.subSectionTexts}
           yearsWorked={subSection.yearsWorked}
           workTitle={subSection.workTitle}
           techStack={subSection.techStack}
+          imageGrid={subSection.imageGrid}
         />
       ) : (
         <SubSection

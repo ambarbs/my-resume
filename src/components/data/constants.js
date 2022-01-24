@@ -6,19 +6,19 @@ import { GiSkills } from 'react-icons/gi';
 import { BsClock } from 'react-icons/bs';
 import { CgScreen } from 'react-icons/cg';
 
-import logoIAG from '../assets/logos/iag.png';
-import logoRapiscan from '../assets/logos/rapiscan.png';
-import logoLE from '../assets/logos/luxury-escapes-logo.jpg';
-import logoOptus from '../assets/logos/optusSport.png';
-import logoSuncorp from '../assets/logos/suncorp.png';
-import logoCoreLogic from '../assets/logos/coreLogic.jpg';
-import logoTab from '../assets/logos/tab.jpg';
-import logoNBN from '../assets/logos/nbn.png';
-import logoIress from '../assets/logos/iress.jpg';
-import logoOracle from '../assets/logos/oracle.png';
-import logoCisco from '../assets/logos/cisco.png';
-import logoYodlee from '../assets/logos/yodlee.png';
-import logoIndience from '../assets/logos/Indience.png';
+import logoIAG from '../../assets/logos/iag.png';
+import logoRapiscan from '../../assets/logos/rapiscan.png';
+import logoLE from '../../assets/logos/luxury-escapes-logo.jpg';
+import logoOptus from '../../assets/logos/optusSport.png';
+import logoSuncorp from '../../assets/logos/suncorp.png';
+import logoCoreLogic from '../../assets/logos/coreLogic.jpg';
+import logoTab from '../../assets/logos/tab.jpg';
+import logoNBN from '../../assets/logos/nbn.png';
+import logoIress from '../../assets/logos/iress.jpg';
+import logoOracle from '../../assets/logos/oracle.png';
+import logoCisco from '../../assets/logos/cisco.png';
+import logoYodlee from '../../assets/logos/yodlee.png';
+import logoIndience from '../../assets/logos/Indience.png';
 
 export const sections = [
   {

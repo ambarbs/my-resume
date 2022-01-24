@@ -23,7 +23,7 @@ export const H3 = styled.h3`
     //padding-left: 1rem;
   }
   @media print {
-    font-size: x-small;
+    font-size: small;
   }
 `;
 
