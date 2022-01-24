@@ -3,14 +3,13 @@ import React from 'react';
 import { ImageWrapper } from '../subSection/SubSection.Styles';
 import {
   ExperienceSectionWrapper,
-  H3,
   ImageContainer,
   LeftInnerWrapper,
   LeftOuterWrapper,
 } from './ExperienceSection.Styles';
 import TechStack from './techStack/TechStack';
 import { List } from './List';
-import { Label, Strong } from '../../common/Common.Styles';
+import { H3, Label, Row, Strong } from '../../common/Common.Styles';
 
 const ExperienceSection = ({
   subSectionTitle,
@@ -18,6 +17,7 @@ const ExperienceSection = ({
   subSectionIcon,
   yearsWorked,
   workTitle,
+  location,
   subSectionTexts,
   techStack,
   imageGrid = false,
@@ -39,7 +39,10 @@ const ExperienceSection = ({
         </LeftInnerWrapper>
       </LeftOuterWrapper>
       <div>
-        <H3>{workTitle}</H3>
+        <Row>
+          <H3>{workTitle}</H3>
+          <H3 fontStyle="italic">{location}</H3>
+        </Row>
         <List title="Projects & responsibilities" subSectionTexts={subSectionTexts} />
         {techStack && <TechStack techStack={techStack} />}
       </div>
@@ -56,6 +59,7 @@ ExperienceSection.propTypes = {
   subSectionTitles: PropTypes.arrayOf(PropTypes.string),
   yearsWorked: PropTypes.string,
   workTitle: PropTypes.string,
+  location: PropTypes.string,
   imageGrid: PropTypes.bool,
   subSectionIcon: PropTypes.node,
   subSectionTexts: PropTypes.arrayOf(PropTypes.string),

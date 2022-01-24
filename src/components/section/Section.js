@@ -30,6 +30,7 @@ const Section = ({ sectionHeader, type, SectionHeaderIcon, subSections = [] }) =
                 subSectionTexts={subSection.subSectionTexts}
                 yearsWorked={subSection.yearsWorked}
                 workTitle={subSection.workTitle}
+                location={subSection.location}
                 techStack={subSection.techStack}
                 imageGrid={subSection.imageGrid}
               />

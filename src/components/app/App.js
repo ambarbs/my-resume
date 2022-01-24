@@ -1,33 +1,26 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { AppWrapper } from './App.styles';
 import Header from '../header/Header';
 import Section from '../section/Section';
-import {
-  contacts,
-  sections,
-  experienceSection,
-  experienceSectionIntegrated,
-} from '../data/constants_2';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from '../theme/Global.Styles';
 import { LightTheme, DarkTheme } from '../theme/Themes';
 import ToggleButton from '../toggleButton/ToggleButton';
+import { sections as sectionsUS, contacts as contactsUS } from '../data/cv_us';
+import { sections as sectionsAU, contacts as contactsAU } from '../data/cv_au';
 
 function App() {
-  const [sectionsData, setSectionsData] = useState(sections);
-  useEffect(() => {
-    if (window.location.search === '?v=cv') {
-      setSectionsData([sectionsData[0], experienceSectionIntegrated, sectionsData[1]]);
-    } else {
-      setSectionsData([sectionsData[0], experienceSection, sectionsData[1]]);
-    }
-    // eslint-disable-next-line
-  }, []);
-
   const [theme, setTheme] = useState('light');
   const toggleTheme = (isChecked = false) => {
     isChecked === true ? setTheme('dark') : setTheme('light');
   };
+
+  let contacts = contactsAU;
+  let sections = sectionsAU;
+  if (window.location.search === '?v=cv') {
+    contacts = contactsUS;
+    sections = sectionsUS;
+  }
 
   return (
     <ThemeProvider theme={theme === 'light' ? LightTheme : DarkTheme}>
@@ -36,7 +29,7 @@ function App() {
         <AppWrapper>
           <ToggleButton handleOnCheck={toggleTheme} />
           <Header contacts={contacts} />
-          {sectionsData.map((section) => (
+          {sections.map((section) => (
             <Section
               key={section.header}
               sectionHeader={section.header}

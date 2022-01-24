@@ -1,16 +1,6 @@
 import styled from 'styled-components';
 import { SubSectionWrapper } from '../subSection/SubSection.Styles';
-import { Row, Strong } from '../../common/Common.Styles';
-
-export const H3 = styled.h3`
-  @media only screen and (max-width: 360px) {
-    font-size: 0.9rem;
-    //padding-left: 1rem;
-  }
-  @media print {
-    font-size: small;
-  }
-`;
+import { H3, Row, Strong } from '../../common/Common.Styles';
 
 export const H5 = styled.h5`
   margin: 0;
@@ -60,6 +50,14 @@ export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
   column-gap: 0.25rem;
   & ${LeftOuterWrapper} {
     margin-right: 4rem;
+  }
+
+  & ${Row} {
+    & ${H3} {
+      &:last-of-type {
+        margin-left: 1rem;
+      }
+    }
   }
 
   @media only screen and (max-width: 360px) {

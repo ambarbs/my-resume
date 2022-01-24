@@ -32,3 +32,12 @@ export const Label = styled.label`
     font-size: x-small;
   }
 `;
+export const H3 = styled.h3`
+  font-style: ${({ fontStyle }) => fontStyle};
+  @media only screen and (max-width: 360px) {
+    font-size: 0.9rem;
+  }
+  @media print {
+    font-size: small;
+  }
+`;
