@@ -34,9 +34,9 @@ export const experienceSection = {
       subSectionTitle: 'IAG',
       subSectionIcon: logoIAG,
       workTitle: 'Senior Frontend Engineer - Contract',
-      yearsWorked: 'Mar - Sep 2021',
+      yearsWorked: 'Mar - Sep 2021 | Feb 22 - Present',
       subSectionTexts: [
-        'Owned multiple web apps and was responsible for writing stories, development, deployment.',
+        'Working on developing a brand new web app for renowned insurance co. using Micro-frontend Architecture',
         'Designed, developed and integrated WebChat UI for a major client',
         'UI and middleware development to retrieve an existing quote and display the details',
         'UI development for renewing a quote completing payment of it',
@@ -55,7 +55,7 @@ export const experienceSection = {
       subSectionTexts: [
         'Developed new features on the Luxury Escapes customer website and admin app. Code Review of peers.',
         'Developed Multi Flight Search UI based on new sets of APIs',
-        'Revamped email service to send multiple of emails for unique offer in a package ',
+        'Revamped email service to send multiple emails for unique offer in a package ',
       ],
       techStack: {
         frontend: 'Javascript, React, Redux, TypeScript, Styled Components, Jest, Enzyme',
@@ -78,7 +78,7 @@ export const experienceSection = {
       subSectionTitle: 'Suncorp',
       subSectionIcon: logoSuncorp,
       workTitle: 'Senior Software Consultant - Contract',
-      yearsWorked: 'Mar - Jun 2020',
+      yearsWorked: 'Mar - Jul 2020',
       subSectionTexts: [
         'Primary responsibilities were to develop new features using React, Redux (Matcher) using Micro-frontend architecture for an insurance app',
         'Developed and integrated Adobe analytics to the insurance app',
@@ -90,10 +90,10 @@ export const experienceSection = {
     {
       subSectionTitle: 'Optus Sport',
       subSectionIcon: logoOptus,
-      workTitle: 'Senior Frontend Developer - Contract',
+      workTitle: 'Fullstack Developer - Contract',
       yearsWorked: 'Feb 2019 - Feb 2020',
       subSectionTexts: [
-        'Primary responsibilities were to develop new features using React, Redux, Sass for the responsive web app. Redesigning the website with dynamic responsive layouts.',
+        'Primary responsibilities were to develop new features using React, Redux, Sass for the responsive web app.',
         "Redesigned the the web app's home page with dynamically configurable layouts",
         'Worked on SEO using AWS Lambdas',
         'Developed multiple Lambdas for middle-layer using AWS AppSync and Node JS',
@@ -108,7 +108,7 @@ export const experienceSection = {
     {
       subSectionTitle: 'Core Logic',
       subSectionIcon: logoCoreLogic,
-      workTitle: 'Fullstack Software Developer - Contract',
+      workTitle: 'Fullstack Software Engineer - Contract',
       yearsWorked: 'Sep 2018 - Feb 2019',
       subSectionTexts: [
         'Worked on real estate projects with NAB: Primary responsibilities were to develop new features in the React and React Native Apps along with Java in the backend.',
@@ -203,7 +203,7 @@ export const experienceSection = {
       workTitle: 'Senior Software Engineer',
       yearsWorked: 'Jul 2008 - Sep 2010',
       subSectionTexts: [
-        'Extensively involved with SAP’s project, Heineken, Netherlands and had to travel a couple of times to the client’s site in Amsterdam.',
+        'Extensively involved with SAP’s project, Heineken, Netherlands and travelled twice to the client’s site in Amsterdam.',
         'Primary responsibilities were - coding, code review, requirement gathering',
       ],
     },
@@ -251,7 +251,7 @@ export const sections = [
       {
         subSectionTitle: 'Web technologies',
         subSectionText:
-          'JavaScript (Vanilla & ES6), Node JS, React, Redux, Typescript, JQuery, Styled-components, CSS3,' +
+          'JavaScript (Vanilla & ES6+), Node JS, React, Redux, Typescript, JQuery, Styled-components, CSS3,' +
           'SASS, LESS, Bootstrap, Responsive design, GraphQL, REST, HTML5',
       },
       {

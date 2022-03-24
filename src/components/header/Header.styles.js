@@ -40,7 +40,7 @@ export const NameWrapper = styled.div`
   }
 
   @media print {
-    font-size: 2.5em;
+    font-size: 5em;
     letter-spacing: unset;
     line-height: unset;
   }

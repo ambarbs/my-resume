@@ -18,12 +18,12 @@ export const PersonalProjectSectionWrapper = styled(SubSectionWrapper)`
   }
 
   @media print {
-    margin-bottom: 0.2rem;
-    margin-top: 0.2rem;
+    //margin-bottom: 0.2rem;
+    //margin-top: 0.2rem;
     font-size: x-small;
     & ${Column} {
       & ${Label} {
-        margin-bottom: 0.2rem;
+        //margin-bottom: 0.2rem;
       }
     }
   }

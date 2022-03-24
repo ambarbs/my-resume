@@ -46,7 +46,7 @@ export const experienceSection = {
       ),
       workTitle: 'Senior Frontend Consultant - Contract',
       location: 'Sydney, AU',
-      yearsWorked: 'Mar 2020 - Sep 2021',
+      yearsWorked: 'Mar 2020 - Aug 2021',
       subSectionTexts: [
         'Designed and developed different domain specific apps and was responsible for writing stories, development, deployment.',
         'Designed, developed and integrated WebChat UI for a major supermarket client',
@@ -187,7 +187,7 @@ export const experienceSection = {
       location: 'Bangalore, IN',
       yearsWorked: 'Jul 2008 - Sep 2010',
       subSectionTexts: [
-        'Extensively involved with SAP’s project, Heineken, Netherlands and had to travel a couple of times to the client’s site in Amsterdam.',
+        'Extensively involved with SAP’s project, Heineken, Netherlands and travelled twice to the client’s site in Amsterdam.',
         'Primary responsibilities were - coding, code review, requirement gathering',
       ],
     },
@@ -235,7 +235,7 @@ export const sections = [
       {
         subSectionTitle: 'Web technologies',
         subSectionText:
-          'JavaScript (Vanilla & ES6), Node JS, React, Redux, Typescript, JQuery, Styled-components, CSS3,' +
+          'JavaScript (Vanilla & ES6+), Node JS, React, Redux, Typescript, JQuery, Styled-components, CSS3,' +
           'SASS, LESS, Bootstrap, Responsive design, GraphQL, REST, HTML5',
       },
       {
@@ -255,7 +255,7 @@ export const sections = [
 export const contacts = [
   {
     icon: AiOutlineMail,
-    text: 'ambar.bs@gmail.com',
+    text: 'ambarbose@hotmail.com',
     isUrl: false,
     isEmail: true,
   },

@@ -16,6 +16,10 @@ export const StyledUL = styled.ul`
   @media only screen and (max-width: 360px) {
     padding-inline-start: 2rem;
   }
+  @media print {
+    margin-block-start: 0.2rem;
+    margin-block-end: 0.2rem;
+  }
 `;
 
 export const StyledLi = styled.li`
