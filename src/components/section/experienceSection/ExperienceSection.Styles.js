@@ -60,9 +60,10 @@ export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
     }
   }
 
-  @media only screen and (max-width: 360px) {
+  @media only screen and (max-width: 390px) {
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
   }
   @media print {
     margin-bottom: 0.5rem;
@@ -71,14 +72,13 @@ export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
 
 export const ImageContainer = styled.div`
   height: 100%;
-  width: ${({ width }) => width || '5rem'};
+  //width: ${({ width }) => width || '5rem'};
   display: flex;
   justify-content: center;
   align-items: center;
-  @media only screen and (max-width: 360px) {
-    width: 2.5rem;
+  @media only screen and (max-width: 390px) {
+    width: unset;
     height: unset;
-    padding-top: 1rem;
   }
 `;
 

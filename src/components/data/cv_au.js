@@ -7,6 +7,7 @@ import { BsClock } from 'react-icons/bs';
 import { CgScreen } from 'react-icons/cg';
 import { FaProjectDiagram } from 'react-icons/fa';
 
+import ampol from '../../assets/logos/ampol.png';
 import logoIAG from '../../assets/logos/iag.png';
 import logoRapiscan from '../../assets/logos/rapiscan.png';
 import logoLE from '../../assets/logos/luxury-escapes-logo.jpg';
@@ -31,15 +32,31 @@ export const experienceSection = {
   headerIcon: BsClock,
   subSections: [
     {
+      subSectionTitle: 'Ampol',
+      subSectionIcon: ampol,
+      workTitle: 'Senior Frontend Engineer - Contract',
+      yearsWorked: 'May 21 - Present',
+      subSectionTexts: [
+        'Developed and integrated Frontend payment system',
+        'Developed feature to use the same web-app for agents to continue with the flow from where the customer has dropped off',
+        'Implemented UI components to be used accross other Ampol apps',
+      ],
+      techStack: {
+        frontend: 'Javascript, React, MOBX, TypeScript, HTML5, SASS, Jest, Enzyme',
+        backend: '.NET, Microsoft Azure',
+      },
+    },
+    {
       subSectionTitle: 'IAG',
       subSectionIcon: logoIAG,
       workTitle: 'Senior Frontend Engineer - Contract',
-      yearsWorked: 'Mar - Sep 2021 | Feb 22 - Present',
+      yearsWorked: 'Mar 21 - May 22',
       subSectionTexts: [
         'Working on developing a brand new web app for renowned insurance co. using Micro-frontend Architecture',
         'Designed, developed and integrated WebChat UI for a major client',
         'UI and middleware development to retrieve an existing quote and display the details',
         'UI development for renewing a quote completing payment of it',
+        'Micro-frontend integration of different UI components built by other teams using Module Federation with Craco',
       ],
       techStack: {
         frontend:

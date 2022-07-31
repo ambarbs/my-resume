@@ -9,7 +9,7 @@ export const HeaderWrapper = styled.section`
   margin-bottom: 1rem;
   height: 12rem;
 
-  @media only screen and (max-width: 360px) {
+  @media only screen and (max-width: 390px) {
     height: 6rem;
   }
   @media print {
@@ -33,7 +33,7 @@ export const NameWrapper = styled.div`
     letter-spacing: unset;
     line-height: unset;
   }
-  @media only screen and (max-width: 360px) {
+  @media only screen and (max-width: 390px) {
     font-size: 2.8em;
     letter-spacing: unset;
     line-height: unset;

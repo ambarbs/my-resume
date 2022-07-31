@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import React from 'react';
 
 export const AppOuterWrapper = styled.div`
-  //background-color: red;
+  background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
