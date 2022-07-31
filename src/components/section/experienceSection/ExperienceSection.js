@@ -5,7 +5,7 @@ import {
   ExperienceSectionWrapper,
   ImageContainer,
   LeftInnerWrapper,
-  LeftOuterWrapper,
+  LeftOuterWrapper, RightOuterWrapper,
 } from './ExperienceSection.Styles';
 import TechStack from './techStack/TechStack';
 import { List } from './List';
@@ -38,14 +38,14 @@ const ExperienceSection = ({
           <Label>{yearsWorked}</Label>
         </LeftInnerWrapper>
       </LeftOuterWrapper>
-      <div>
+      <RightOuterWrapper>
         <Row>
           <H3>{workTitle}</H3>
           <H3 fontStyle="italic">{location}</H3>
         </Row>
         <List title="Projects & responsibilities" subSectionTexts={subSectionTexts} />
         {techStack && <TechStack techStack={techStack} />}
-      </div>
+      </RightOuterWrapper>
     </ExperienceSectionWrapper>
   );
 };

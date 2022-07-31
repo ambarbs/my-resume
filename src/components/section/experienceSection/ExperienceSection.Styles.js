@@ -25,10 +25,17 @@ export const LeftInnerWrapper = styled.div`
   }
 `;
 
+export const RightOuterWrapper = styled.div`
+  @media only screen and (max-width: 390px) {
+    margin-left: 1rem;
+  }
+`;
+
 export const LeftOuterWrapper = styled(Row)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-left: 1rem;
 
   & ${LeftInnerWrapper} {
     padding-left: 1rem;
@@ -66,7 +73,8 @@ export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
     margin-top: 1rem;
   }
   @media print {
-    margin-bottom: 0.5rem;
+    //padding-top: 0.5rem;
+    //padding-bottom: 0.5rem;
   }
 `;
 
