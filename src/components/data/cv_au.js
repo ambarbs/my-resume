@@ -268,7 +268,7 @@ export const sections = [
       {
         subSectionTitle: 'Web technologies',
         subSectionText:
-          'JavaScript (Vanilla & ES6+), Node JS, React, Redux, Typescript, JQuery, Styled-components, CSS3,' +
+          'JavaScript (Vanilla & ES6+), Typescript, Node JS, React, Redux, MobX, JQuery, Styled-components, CSS3,' +
           'SASS, LESS, Bootstrap, Responsive design, GraphQL, REST, HTML5',
       },
       {
