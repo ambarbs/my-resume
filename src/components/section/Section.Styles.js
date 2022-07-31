@@ -41,10 +41,10 @@ export const SectionWrapper = styled.section`
   }
 
   & ${ExperienceSectionWrapper}:nth-child(even) {
-    background: #ccc;
+    background-color: ${({ theme }) => (theme.type === 'light' ? '#ccc' : '#282828')};
   }
   & ${ExperienceSectionWrapper}:nth-child(odd) {
-    background: #fff;
+    background-color: ${({ theme }) => (theme.type === 'light' ? '#fff' : '#404040')};
   }
   @media print {
     margin-top: 0.5rem;
