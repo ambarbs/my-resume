@@ -35,14 +35,14 @@ export const experienceSection = {
       subSectionTitle: 'Ampol',
       subSectionIcon: ampol,
       workTitle: 'Senior Frontend Engineer - Contract',
-      yearsWorked: 'May 21 - Present',
+      yearsWorked: 'May 22 - Present',
       subSectionTexts: [
         'Developed and integrated Frontend payment system',
         'Developed feature to use the same web-app for agents to continue with the flow from where the customer has dropped off',
         'Implemented UI components to be used accross other Ampol apps',
       ],
       techStack: {
-        frontend: 'Javascript, React, MOBX, TypeScript, HTML5, SASS, Jest, Enzyme',
+        frontend: 'Javascript, React, NextJS, MOBX, TypeScript, HTML5, SASS, Jest, Enzyme',
         backend: '.NET, Microsoft Azure',
       },
     },
