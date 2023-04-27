@@ -38,11 +38,11 @@ export const experienceSection = {
       yearsWorked: 'May 22 - Present',
       subSectionTexts: [
         'Developed and integrated Frontend payment system',
-        'Developed feature to use the same web-app for agents to continue with the flow from where the customer has dropped off',
-        'Implemented UI components to be used accross other Ampol apps',
+        'Developed feature to use the same web-app for agents',
+        'Involved developing the web app from scratch',
       ],
       techStack: {
-        frontend: 'Javascript, React, NextJS, MOBX, TypeScript, HTML5, SASS, Jest, Enzyme',
+        frontend: 'TypeScript, React, NextJS, MOBX, HTML5, SASS, Jest, React testing library',
         backend: '.NET, Microsoft Azure',
       },
     },
@@ -52,7 +52,7 @@ export const experienceSection = {
       workTitle: 'Senior Frontend Engineer - Contract',
       yearsWorked: 'Mar 21 - May 22',
       subSectionTexts: [
-        'Working on developing a brand new web app for renowned insurance co. using Micro-frontend Architecture',
+        'Worked on developing a brand new web app for renowned insurance co. using Micro-frontend Architecture',
         'Designed, developed and integrated WebChat UI for a major client',
         'UI and middleware development to retrieve an existing quote and display the details',
         'UI development for renewing a quote completing payment of it',
@@ -277,7 +277,7 @@ export const sections = [
       },
       {
         subSectionTitle: 'Unit/Automation testing',
-        subSectionText: 'Jest, Enzyme, Selenium, Jasmine',
+        subSectionText: 'Jest, React testing library, Enzyme, Selenium, Jasmine',
       },
     ],
   },
