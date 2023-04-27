@@ -39,7 +39,7 @@ export const experienceSection = {
       subSectionTexts: [
         'Developed and integrated Frontend payment system',
         'Developed feature to use the same web-app for agents',
-        'Involved developing the web app from scratch',
+        'Involved in development/architecture activities of the web app from scratch',
       ],
       techStack: {
         frontend: 'TypeScript, React, NextJS, MOBX, HTML5, SASS, Jest, React testing library',
