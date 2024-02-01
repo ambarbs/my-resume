@@ -37,9 +37,10 @@ export const experienceSection = {
       workTitle: 'Senior Frontend Engineer - Contract',
       yearsWorked: 'May 22 - Present',
       subSectionTexts: [
+        'Involved in development and architecture activities for a brand new Energy Retail website',
         'Developed and integrated Frontend payment system',
         'Developed feature to use the same web-app for agents',
-        'Involved in development/architecture activities of the web app from scratch',
+        'Crafted and seamlessly incorporated Contentstack offers for utilization and rendering within the app.',
       ],
       techStack: {
         frontend: 'TypeScript, React, NextJS, MOBX, HTML5, SASS, Jest, React testing library',
@@ -242,20 +243,13 @@ const personalProjects = {
       image: ticTacToe,
       title: 'Tic Tac Toe',
       description: 'Tic Tac Toe built with React, Redux, Material UI, Bootstrap and CSS',
-      link: 'https://tic-tac-toe-vs-comp.herokuapp.com/',
-    },
-    {
-      image: chess,
-      title: 'Chess online',
-      description:
-        'Chess online multiplayer built with React, Redux, Styled Components and Google Cloud',
-      link: 'https://chess-me-if-you-can.herokuapp.com/',
+      link: 'https://ambarbs.github.io/react-tic-tac-toe/',
     },
     {
       image: binaryClock,
       title: 'Binary clock',
       description: 'Binary clock built with React',
-      link: 'https://binary-watch.herokuapp.com/',
+      link: 'https://ambarbs.github.io/react-binary-watch/',
     },
   ],
 };
@@ -272,8 +266,8 @@ export const sections = [
           'SASS, LESS, Bootstrap, Responsive design, GraphQL, REST, HTML5',
       },
       {
-        subSectionTitle: 'Cloud / AWS',
-        subSectionText: 'Gateway, Lambda, S3, AppSync, Serverless',
+        subSectionTitle: 'Cloud / AWS / Azure',
+        subSectionText: 'Gateway, Lambda, S3, AppSync, Serverless, Azure SWA, Config',
       },
       {
         subSectionTitle: 'Unit/Automation testing',

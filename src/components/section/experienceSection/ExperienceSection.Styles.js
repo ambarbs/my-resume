@@ -56,7 +56,7 @@ export const LeftOuterWrapper = styled(Row)`
 export const ExperienceSectionWrapper = styled(SubSectionWrapper)`
   column-gap: 0.25rem;
   & ${LeftOuterWrapper} {
-    margin-right: 4rem;
+    //margin-right: 4rem;
   }
 
   & ${Row} {
